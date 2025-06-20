@@ -71,7 +71,7 @@ It demonstrates:
 
 ## 👩‍💻 Developed by
 
-Sameeksha Sharma – [GitHub](https://github.com/sameekshas2501) • [LinkedIn](https://www.linkedin.com/in/sameeksha-sharma-2025)
+Sameeksha Sharma – [GitHub](https://github.com/SameekshaCodes) • [LinkedIn]([)](https://www.linkedin.com/in/sameekshasharmak25)
 
 ---
 
