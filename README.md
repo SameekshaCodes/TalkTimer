@@ -18,17 +18,7 @@ Built with an elegant pastel purple UI, it simulates real-world speech phases, a
 - 🎨 **Pastel Purple Theme** with Dancing Script title and clean layout
 - ⚡ **Works offline**, stores sessions in browser (localStorage)
 
----
 
-## 🖼️ Screenshots
-
-### 🟪 Main Timer Display
-[Timer Running]  (/Screenshot 2 .jpg)
-
-### 💾 Session History with Audio Playback
-[Session History] (/Screenshot 1 .jpg)
-
----
 
 ## 🚀 Live Demo
 
@@ -71,7 +61,7 @@ It demonstrates:
 
 ## 👩‍💻 Developed by
 
-Sameeksha Sharma – [GitHub](https://github.com/SameekshaCodes) • [LinkedIn]([)](https://www.linkedin.com/in/sameekshasharmak25)
+Sameeksha Sharma – [GitHub](https://github.com/SameekshaCodes) • [LinkedIn](https://www.linkedin.com/in/sameekshasharmak25)
 
 ---
 
