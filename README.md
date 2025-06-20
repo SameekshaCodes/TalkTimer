@@ -32,7 +32,7 @@ Built with an elegant pastel purple UI, it simulates real-world speech phases, a
 
 ## 🚀 Live Demo
 
-🔗 [Click here to view the deployed app]()
+🔗 [Click here to view the deployed app](https://sameekshacodes.github.io/TalkTimer/)
 
 ---
 
