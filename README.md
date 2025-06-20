@@ -23,7 +23,7 @@ Built with an elegant pastel purple UI, it simulates real-world speech phases, a
 ## 🖼️ Screenshots
 
 ### 🟪 Main Timer Display
-![Timer Running](assets/screenshot1.png)
+![Timer Running](./Screenshot 2 .jpg)
 
 ### 💾 Session History with Audio Playback
 ![Session History](./Screenshot 1 .jpg)
