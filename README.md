@@ -1,20 +1,77 @@
-# TalkTimer
-This is a front End based speak practice app made by me for my resume , it shows my web dev skills and also my love for public speaking , hope you like it .
 # 🎤 TalkTimer
 
-TalkTimer helps you rehearse structured speeches with phase-based timing.
+**TalkTimer** is a structured speech rehearsal tool designed for students, public speakers, and professionals who want to improve their time management during presentations.  
+Built with an elegant pastel purple UI, it simulates real-world speech phases, allows recording your voice, and saves your sessions for reflection.
 
-## Features
-- Enter total speech duration
-- Auto split into Intro, Body, Conclusion
-- Countdown timer with ⏸️ Pause / ▶️ Resume
-- 💾 Save past sessions with timestamp
-- Elegant pastel-purple theme
+---
 
-## Live Demo
-[Click here to view](https://yourusername.github.io/talktimer/)
+## 🌟 Features
 
-## Built With
-- HTML
-- CSS
-- JavaScript (localStorage + timer logic)
+- ⏱️ **Phase-Based Timer** – Auto-splits total speech time into:
+  - **Intro (15%)**
+  - **Body (70%)**
+  - **Conclusion (15%)**
+- ⏸️ **Pause / Resume** anytime during practice
+- 🎙️ **Audio Recording** – Record your speech without mic icons
+- 💾 **Save Sessions** – Includes time, phase, and audio playback
+- 📝 **Timeline View** of Past Sessions with downloadable audio
+- 🎨 **Pastel Purple Theme** with Dancing Script title and clean layout
+- ⚡ **Works offline**, stores sessions in browser (localStorage)
+
+---
+
+## 🖼️ Screenshots
+
+### 🟪 Main Timer Display
+![Timer Running](assets/screenshot1.png)
+
+### 💾 Session History with Audio Playback
+![Session History](./Screenshot 1 .jpg)
+
+---
+
+## 🚀 Live Demo
+
+🔗 [Click here to view the deployed app]()
+
+---
+
+## 🛠️ Tech Stack
+
+| Frontend  | Features |
+|-----------|----------|
+| HTML5     | Semantic layout |
+| CSS3      | Custom pastel theme, layout |
+| JavaScript | Timer logic, audio recording, session saving |
+| MediaRecorder API | Built-in voice recording |
+| localStorage | Save and load past sessions |
+
+---
+
+## 🧠 Project Purpose
+
+This project is inspired by internal tools used at tech companies like Google and Meta, where structured speaking and presentation rehearsals are key.  
+It demonstrates:
+- Real-world utility
+- Aesthetic frontend design
+- Use of browser APIs (MediaRecorder)
+- Local data persistence
+- Clean UI/UX focus
+
+---
+
+## 💡 Future Enhancements
+
+- ⏲️ Custom phase splitting
+- 📥 Export session logs as PDF
+- ☁️ Cloud sync with backend (MongoDB + Express)
+- 🗣️ Speech analysis with AI feedback
+
+---
+
+## 👩‍💻 Developed by
+
+Sameeksha Sharma – [GitHub](https://github.com/sameekshas2501) • [LinkedIn](https://www.linkedin.com/in/sameeksha-sharma-2025)
+
+---
+
