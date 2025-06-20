@@ -1,0 +1,112 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #f3e5f5, #e1bee7);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.container {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 20px;
+  width: 400px;
+  box-shadow: 0 10px 30px rgba(128, 0, 128, 0.1);
+  text-align: center;
+}
+
+.app-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  color: #8e44ad;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 85%;
+  margin-bottom: 15px;
+}
+
+.controls button,
+.recording-section button,
+.container button {
+  margin: 0.4rem;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 12px;
+  background: rgba(200, 150, 250, 0.3);
+  color: #4a0072;
+  font-weight: bold;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  transition: 0.3s;
+}
+
+button:hover {
+  background: rgba(186, 104, 200, 0.4);
+}
+
+.timer-display {
+  margin-top: 20px;
+}
+
+#timer {
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin: 10px 0;
+  text-shadow: 1px 1px 2px #b39ddb;
+}
+
+.phase-label {
+  padding: 6px 12px;
+  border-radius: 30px;
+  display: inline-block;
+  font-weight: 600;
+  background: #eee;
+  color: #6a1b9a;
+  font-size: 1.1rem;
+}
+
+.recording-section {
+  margin-top: 20px;
+}
+
+a#downloadLink {
+  display: block;
+  margin-top: 10px;
+  color: #512da8;
+  font-weight: 500;
+}
+
+.history {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.session-list {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.session-card {
+  background: #f7f0ff;
+  border-radius: 10px;
+  padding: 10px 15px;
+  box-shadow: 0 0 10px rgba(155, 89, 182, 0.1);
+}
+
+.session-card p {
+  margin: 0 0 5px 0;
+  font-size: 0.95rem;
+}
+
+.session-card audio {
+  width: 100%;
+  margin-top: 5px;
+}

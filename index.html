@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TalkTimer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1 class="app-title">TalkTimer</h1>
+
+    <input type="number" id="minutes" placeholder="Enter speech duration (min)" />
+
+    <div class="controls">
+      <button onclick="startTimer()">Start</button>
+      <button onclick="pauseTimer()">Pause</button>
+      <button onclick="resumeTimer()">Resume</button>
+    </div>
+
+    <div class="timer-display">
+      <div id="phase" class="phase-label">Waiting...</div>
+      <div id="timer">00:00</div>
+    </div>
+
+    <div class="recording-section">
+      <button onclick="toggleRecording()" id="recordBtn">Start Recording</button>
+      <a id="downloadLink" style="display: none;">Download Recording</a>
+    </div>
+
+    <button onclick="saveSession()">💾 Save This Session</button>
+
+    <div class="history">
+      <h3> Past Sessions</h3>
+      <div id="sessionList" class="session-list"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
